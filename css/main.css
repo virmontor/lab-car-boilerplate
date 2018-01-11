@@ -1,1 +1,43 @@
-/* Los estilos de tu proyecto */
+
+
+header {
+  z-index: -1;
+  position: static;
+  margin-top: 110px;
+}
+
+.navbar  {
+  background-color: white;
+  border-color: white;
+  
+}
+
+.logo {
+  padding-top: 30px;
+  width: 70%;
+}
+
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+form {
+  background-color: #F7B543;
+  margin-top: 160px;
+  padding: 10px;
+}
+
+
+.taxi {
+  background-image: url("../assets/images/taxismall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom;
+  height: 600px;
+}
