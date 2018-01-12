@@ -12,9 +12,21 @@ header {
 
 }
 
+.button-burger {
+  margin-left: 5vh;
+  margin-top: 2vh;
+}
+
 .logo {
-  padding-top: 30px;
-  width: 70%;
+  padding-top: 10px;
+  width: 13vh;
+  margin-left: 1vh;
+}
+
+.logo2 {
+  padding-top: 15px;
+  width: 15vh;
+  margin-left: 12vh;
 }
 
 .navbar-nav>li>a {
@@ -22,15 +34,44 @@ header {
     padding-bottom: 15px;
 }
 
-img {
-  display: block;
-  width: 100%;
+.logo-blanco {
+  width: 10vh;
+  margin-left: 1vh;
 }
 
-form {
+.letter-white {
+  color: white;
+}
+
+.background-white {
+  background-color: white;
+  outline-color: white;
+  color: black;
+  border-color: white;
+}
+
+.border-white {
+   outline: white solid 2px;
+
+}
+
+.space {
+  height: 10vh;
+}
+
+
+.background-color {
   background-color: #F7B543;
   margin-top: 160px;
   padding: 10px;
+}
+
+.background-color-movil {
+  background-color: #F7B543;
+  padding: 9vh;
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 10vh;
 }
 
 
@@ -42,14 +83,28 @@ form {
   height: 100vh;
 }
 
-.yellow {
-  background-color: #F7B543;
+.taxi-movile {
+  background-image: url("../assets/images/taxi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.iPhone6Plus {
+.yellow {
+  background-color: #F7B543;
+  height: 60vh;
+}
+
+.background-black {
+  background-color: #F7B543;
+  height: 80vh;
+}
+
+.movil {
   background-image: url("../assets/images/Iphone6Plus.png");
   background-repeat: no-repeat;
   background-size:contain;
   background-position:center;
   height: 50vh;
+  top: 5vh;
 }
