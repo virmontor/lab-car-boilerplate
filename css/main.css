@@ -6,6 +6,10 @@ header {
   margin-top: 110px;
 }
 
+.letter-white {
+  color: white;
+}
+
 .navbar  {
   background-color: white;
   border-color: white;
@@ -50,19 +54,58 @@ header {
   border-color: white;
 }
 
+.background-yellow {
+  background-color: #F7B543;
+}
+
 .border-white {
    outline: white solid 2px;
+   outline-offset: 5vh;
+ }
 
+ .border-white-movil {
+    outline: white solid 2px;
+  }
+
+  .h3-conduce{
+    margin-top: 10vh;
+  }
+
+  .text-conduce {
+    margin-top: 3vh;
+  }
+
+  .button-conducer{
+    margin-top: 3vh;
+  }
+
+.new-app {
+  text-align:right;
+  font-size: 4vh;
+  bottom: 3vh;
+  color: white;
 }
+
+.new-app2 {
+  text-align:left;
+  font-size: 3vh;
+  bottom: 6vh;
+  color: white;
+}
+
 
 .space {
   height: 10vh;
 }
 
+.margin-small {
+  margin-top: 5vh;
+}
+
 
 .background-color {
   background-color: #F7B543;
-  margin-top: 160px;
+  margin-top: 25vh;
   padding: 10px;
 }
 
@@ -92,12 +135,12 @@ header {
 
 .yellow {
   background-color: #F7B543;
-  height: 60vh;
+  height: 70vh;
 }
 
 .background-black {
   background-color: #F7B543;
-  height: 80vh;
+  height: 90vh;
 }
 
 .movil {
@@ -105,6 +148,37 @@ header {
   background-repeat: no-repeat;
   background-size:contain;
   background-position:center;
-  height: 50vh;
-  top: 5vh;
+  height: 60vh;
+  top: 8vh;
+}
+
+.paragraph2 {
+  margin-top: 2vh;
+  font-weight: 200;
+  font-size: 2.5vh;
+}
+
+.paragraph1 {
+  margin-top: 3vh;
+  font-weight: 200;
+  font-size: 2.5vh;
+}
+
+.margin-left {
+  margin-right: 6vh;
+}
+
+
+.drive {
+  background-image: url("../assets/images/conduce.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom;
+  height: 100vh;
+}
+
+.frame-conduce{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 40vh;
+
 }
