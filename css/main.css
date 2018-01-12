@@ -9,7 +9,7 @@ header {
 .navbar  {
   background-color: white;
   border-color: white;
-  
+
 }
 
 .logo {
@@ -35,9 +35,21 @@ form {
 
 
 .taxi {
-  background-image: url("../assets/images/taxismall.jpg");
+  background-image: url("../assets/images/taxi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:bottom;
-  height: 600px;
+  height: 100vh;
+}
+
+.yellow {
+  background-color: #F7B543;
+}
+
+.iPhone6Plus {
+  background-image: url("../assets/images/Iphone6Plus.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+  height: 50vh;
 }
