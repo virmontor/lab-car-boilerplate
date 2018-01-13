@@ -82,7 +82,7 @@ header {
 .new-app {
   text-align:right;
   font-size: 4vh;
-  bottom: 3vh;
+  bottom: 6vh;
   color: white;
 }
 
@@ -173,12 +173,20 @@ header {
   background-image: url("../assets/images/conduce.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:bottom;
-  height: 100vh;
+  background-position: 100% 60%;
+  height: 50vh;
 }
 
 .frame-conduce{
   background-color: rgba(0, 0, 0, 0.5);
   height: 50vh;
+}
 
+.background-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#map {
+  height: 20vh;
+  width: 50vh;
 }
