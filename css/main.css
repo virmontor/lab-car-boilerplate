@@ -1,9 +1,12 @@
 
+body {
+  background-color: #2B2B2B;
+}
 
 header {
   z-index: -1;
   position: static;
-  margin-top: 110px;
+
 }
 
 .letter-white {
@@ -59,6 +62,18 @@ header {
   font-size: 5vh;
   font-weight: 500;
   letter-spacing: 0.5vh;
+}
+
+.letter-white-xs {
+  color: white;
+  font-size: 2vh;
+  letter-spacing: 0.1vh;
+}
+
+.letter-white-md {
+  color: white;
+  font-size: 10vh;
+  letter-spacing: 0.1vh;
 }
 
 .letter-white-h3 {
@@ -152,13 +167,19 @@ header {
 .background-color {
   background-color: #F7B543;
   margin-top: 25vh;
-  padding: 10px;
+  padding: 30px;
+}
+
+.background-color-desktop {
+  background-color: #F7B543;
+  padding: 8vh;
+  margin-top: 20vh;
+  margin-left: 10vh;
 }
 
 .background-color-movil {
   background-color: #F7B543;
-  padding: 9vh;
-  position: absolute;
+  padding: 8vh;
   margin-top: 20vh;
   margin-left: 10vh;
 }
@@ -278,7 +299,6 @@ header {
 
 .background-footer-movil {
   background-color: #2B2B2B;
-  height: 80vh;
 }
 
 .offset-top {
@@ -288,6 +308,16 @@ header {
 
 hr {
   color: white;
+}
+
+.text-form-1 {
+  color: white;
+  font-size: 3.5vh;
+  letter-spacing: 0.1vh;
+}
+
+.size-form-group {
+
 }
 
 .text-footer {
@@ -303,7 +333,7 @@ hr {
 }
 
 .space-footer-logos1 {
-  padding-top: 18vh;
+  padding-top: 25vh;
 }
 
 .space-footer-logos-movil {
