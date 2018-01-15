@@ -258,7 +258,7 @@ header {
 
 .space-down {
   margin-top: 5vh;
-  margin-left: 18vh;
+  margin-left: 16vh;
 }
 
 .border-map {
@@ -269,4 +269,62 @@ header {
 .border-map2 {
   outline: white solid 1px;
   padding: 1vh;
+}
+
+.background-footer {
+  background-color: #2B2B2B;
+  height: 70vh;
+}
+
+.background-footer-movil {
+  background-color: #2B2B2B;
+  height: 80vh;
+}
+
+.offset-top {
+  padding-top: 5vh;
+  padding-left: 2vh;
+}
+
+hr {
+  color: white;
+}
+
+.text-footer {
+  color: white;
+  letter-spacing: 0.3vh;
+  font-weight: 200;
+  font-size: 1.5vh;
+  cursor: pointer;
+}
+
+.space-footer {
+  padding: 20vh;
+}
+
+.space-footer-logos1 {
+  padding-top: 18vh;
+}
+
+.space-footer-logos-movil {
+  padding-top: 5vh;
+}
+
+.letter-white-icon {
+  color: white;
+  font-size: 2vh;
+  width: 3vh;
+  padding-top: 3vh;
+}
+
+.fa {
+  cursor:pointer;
+}
+
+.lettersize-footermovil {
+  color: white;
+  letter-spacing: 0.2vh;
+  font-weight: 400;
+  font-size: 2vh;
+  cursor: pointer;
 }
